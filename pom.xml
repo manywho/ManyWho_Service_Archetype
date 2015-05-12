@@ -8,6 +8,30 @@
   <packaging>maven-archetype</packaging>
 
   <name>example-archetype</name>
+  <description>Maven archetype that creates a basic example ManyWho Service</description>
+  <url>https://developers.manywho.com</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Jonjo McKay</name>
+      <email>jonjo.mckay@manywho.com</email>
+      <organization>ManyWho</organization>
+      <organizationUrl>https//manywho.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git@github.com:manywho/ManyWho_Service_Archetype.git</connection>
+    <developerConnection>scm:git:git@github.com:manywho/ManyWho_Service_Archetype.git</developerConnection>
+    <url>git@github.com:manywho/ManyWho_Service_Archetype.git</url>
+  </scm>
 
   <distributionManagement>
     <snapshotRepository>
