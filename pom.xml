@@ -28,9 +28,9 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git@github.com:manywho/ManyWho_Service_Archetype.git</connection>
-    <developerConnection>scm:git:git@github.com:manywho/ManyWho_Service_Archetype.git</developerConnection>
-    <url>git@github.com:manywho/ManyWho_Service_Archetype.git</url>
+    <connection>scm:git:git@github.com:manywho/service-archetype.git</connection>
+    <developerConnection>scm:git:git@github.com:manywho/service-archetype.git</developerConnection>
+    <url>git@github.com:manywho/service-archetype.git</url>
   </scm>
 
   <distributionManagement>
