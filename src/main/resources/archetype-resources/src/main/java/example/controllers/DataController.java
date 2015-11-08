@@ -1,14 +1,14 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.archetype.controllers;
+package ${package}.${artifactId}.controllers;
 
 import com.manywho.sdk.entities.run.elements.type.ObjectDataRequest;
 import com.manywho.sdk.entities.run.elements.type.ObjectDataResponse;
 import com.manywho.sdk.services.controllers.AbstractDataController;
-import ${package}.archetype.configuration.Configuration;
-import ${package}.archetype.services.DataService;
-import ${package}.archetype.types.Example;
+import ${package}.${artifactId}.configuration.Configuration;
+import ${package}.${artifactId}.services.DataService;
+import ${package}.${artifactId}.types.Example;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;

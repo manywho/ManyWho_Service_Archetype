@@ -1,13 +1,13 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.archetype.actions;
+package ${package}.${artifactId}.actions;
 
 import com.manywho.sdk.entities.describe.DescribeValue;
 import com.manywho.sdk.entities.describe.DescribeValueCollection;
 import com.manywho.sdk.enums.ContentType;
 import com.manywho.sdk.services.describe.actions.AbstractAction;
-import ${package}.archetype.types.Example;
+import ${package}.${artifactId}.types.Example;
 
 public class SendExample extends AbstractAction {
     @Override

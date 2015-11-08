@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.archetype.configuration;
+package ${package}.${artifactId}.configuration;
 
 import com.manywho.sdk.services.annotations.Property;
 

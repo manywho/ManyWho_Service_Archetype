@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.archetype;
+package ${package}.${artifactId};
 
 import com.manywho.sdk.services.BaseApplication;
 import com.manywho.sdk.services.ServiceBinder;
@@ -12,7 +12,7 @@ import javax.ws.rs.ApplicationPath;
 public class Application extends BaseApplication {
     public Application() {
         registerSdk()
-                .packages("${package}.archetype")
+                .packages("${package}.${artifactId}")
                 .register(new ApplicationBinder())
                 .register(new ServiceBinder());
     }

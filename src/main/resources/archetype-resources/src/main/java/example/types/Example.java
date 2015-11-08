@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.archetype.types;
+package ${package}.${artifactId}.types;
 
 import com.manywho.sdk.entities.draw.elements.type.*;
 import com.manywho.sdk.enums.ContentType;

@@ -1,9 +1,9 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.archetype;
+package ${package}.${artifactId};
 
-import ${package}.archetype.services.DataService;
+import ${package}.${artifactId}.services.DataService;
 import org.glassfish.hk2.utilities.binding.AbstractBinder;
 
 public class ApplicationBinder extends AbstractBinder {

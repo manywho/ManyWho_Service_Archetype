@@ -1,11 +1,11 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.archetype.services;
+package ${package}.${artifactId}.services;
 
 import com.manywho.sdk.entities.run.elements.type.ObjectCollection;
 import com.manywho.sdk.entities.run.elements.type.ObjectDataResponse;
-import ${package}.archetype.configuration.Configuration;
+import ${package}.${artifactId}.configuration.Configuration;
 
 public class DataService {
     public ObjectDataResponse loadExamples(Configuration configurationValues) {

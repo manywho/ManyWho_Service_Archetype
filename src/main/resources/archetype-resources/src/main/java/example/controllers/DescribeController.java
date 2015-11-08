@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.archetype.controllers;
+package ${package}.${artifactId}.controllers;
 
 import com.manywho.sdk.entities.describe.DescribeServiceResponse;
 import com.manywho.sdk.entities.describe.DescribeValue;
