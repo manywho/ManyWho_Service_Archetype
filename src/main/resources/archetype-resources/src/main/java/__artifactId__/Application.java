@@ -17,6 +17,6 @@ public class Application extends BaseApplication {
     }
 
     public static void main(String[] args) {
-        startServer(new Application(), "api/1/${artifactId}");
+        startServer(new Application(), "api/${artifactId}/1");
     }
 }
