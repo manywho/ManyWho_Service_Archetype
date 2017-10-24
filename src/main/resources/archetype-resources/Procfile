@@ -1,2 +1,2 @@
 #set ( $d = "$")
-web: java -Dserver.port=${d}{PORT:-8080} ${d}{JAVA_OPTS} -jar target/${artifactId}-${version}.jar
+web: java -Dserver.port=${d}{PORT:-8080} ${d}{JAVA_OPTS} -jar target/service-${artifactId}.jar
