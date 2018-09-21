@@ -28,7 +28,7 @@ $ java -jar target/service-${artifactId}.jar
 
 ${h}${h}${h}${h} Heroku
 
-This service is compatible with Heroku, and can be deployed by:
+This service is compatible with Heroku, and can be deployed by doing the following (assuming you're using `git`):
 
 ```bash
 # If you've never logged in with Heroku via the CLI
